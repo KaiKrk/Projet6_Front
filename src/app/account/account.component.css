@@ -1,0 +1,65 @@
+
+.compte{
+
+  font: 150% Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: 10% auto;
+  padding: 30px;
+  background: #F7F7F7;
+  justify-content: space-between;
+
+}
+.compte h1{
+  background: dodgerblue;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.compte input[type="text"],
+.compte input[type="date"],
+.compte input[type="datetime"],
+.compte input[type="email"],
+.compte input[type="number"],
+.compte input[type="search"],
+.compte input[type="time"],
+.compte input[type="url"],
+.compte textarea,
+.compte select
+{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 7%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.compte input[type="text"]:focus,
+.compte input[type="date"]:focus,
+.compte input[type="datetime"]:focus,
+.compte input[type="email"]:focus,
+.compte input[type="number"]:focus,
+.compte input[type="search"]:focus,
+.compte input[type="time"]:focus,
+.compte input[type="url"]:focus,
+.compte textarea:focus,
+.compte select:focus
+{
+  box-shadow: 0 0 5px dodgerblue;
+  padding: 3%;
+  border: 1px solid dodgerblue;
+}
+
+
+

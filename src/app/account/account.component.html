@@ -1,0 +1,25 @@
+<div class="compte">
+  <h1>Compte</h1>
+  <ul>
+    <li>
+      Identifiant : {{compte.identifiant}}
+    </li>
+    <li>
+      Adresse Email : {{compte.email}}
+    </li>
+    <li>
+      Pays : {{compte.pays}}
+    </li>
+    <li>
+      Nom : {{compte.nom}}
+    </li>
+    <li>
+      Prenom : {{compte.prenom}}
+    </li>
+    <li>
+      Pseudonyme : {{compte.pseudo}}
+    </li>
+  </ul>
+  <button class="btn btn-primary"
+          (click)="onFetch()">Récupérer les comptes</button>
+</div>

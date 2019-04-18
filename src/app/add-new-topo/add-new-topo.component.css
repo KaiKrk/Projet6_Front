@@ -1,0 +1,85 @@
+
+.newTopo{
+
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: 10% auto;
+  padding: 16px;
+  background: #F7F7F7;
+
+}
+.newTopo h1{
+  background: dodgerblue;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.newTopo input[type="text"],
+.newTopo input[type="date"],
+.newTopo input[type="datetime"],
+.newTopo input[type="email"],
+.newTopo input[type="number"],
+.newTopo input[type="search"],
+.newTopo input[type="time"],
+.newTopo input[type="url"],
+.newTopo input[type="file"],
+.newTopo textarea,
+.newTopo select
+{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.newTopo button,
+.newTopo input[type="text"]:focus,
+.newTopo input[type="date"]:focus,
+.newTopo input[type="datetime"]:focus,
+.newTopo input[type="email"]:focus,
+.newTopo input[type="number"]:focus,
+.newTopo input[type="search"]:focus,
+.newTopo input[type="time"]:focus,
+.newTopo input[type="url"]:focus,
+.newTopo input[type="file"]focus,
+.newTopo textarea:focus,
+.newTopo select:focus
+{
+  box-shadow: 0 0 5px dodgerblue;
+  padding: 3%;
+  border: 1px solid dodgerblue;
+}
+.newTopo button,
+.newTopo input[type="submit"],
+.newTopo input[type="button"]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}
+.newTopo button,
+.newTopo input[type="submit"]:hover,
+.newTopo input[type="button"]:hover{
+  background: dodgerblue;
+}
+

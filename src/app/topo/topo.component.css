@@ -1,0 +1,82 @@
+
+.topo{
+
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: 10% auto;
+  padding: 16px;
+  background: #F7F7F7;
+
+}
+.topo h1{
+  background: dodgerblue;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.topo input[type="text"],
+.topo input[type="date"],
+.topo input[type="datetime"],
+.topo input[type="email"],
+.topo input[type="number"],
+.topo input[type="search"],
+.topo input[type="time"],
+.topo input[type="url"],
+.topo textarea,
+.topo select
+{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.topo button,
+.topo input[type="text"]:focus,
+.topo input[type="date"]:focus,
+.topo input[type="datetime"]:focus,
+.topo input[type="email"]:focus,
+.topo input[type="number"]:focus,
+.topo input[type="search"]:focus,
+.topo input[type="time"]:focus,
+.topo input[type="url"]:focus,
+.topo textarea:focus,
+.topo select:focus
+{
+  box-shadow: 0 0 5px dodgerblue;
+  padding: 3%;
+  border: 1px solid dodgerblue;
+}
+.topo button,
+.topo input[type="submit"],
+.topo input[type="button"]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}
+.topo button,
+.topo input[type="submit"]:hover,
+.topo input[type="button"]:hover{
+  background: dodgerblue;
+}
